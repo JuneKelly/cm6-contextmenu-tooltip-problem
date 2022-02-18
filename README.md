@@ -23,15 +23,15 @@ and the way CM6 handles tooltips.
 
 ## Gifs
 
-In Firefox (consistent behaviour):
-
+### In Firefox (consistent behaviour):
 
 ![](./images/cm6-firefox.gif)
 
-In Chrome (inconsistent behaviour):
 
+### In Chrome (inconsistent behaviour):
 
 ![](./images/cm6-chrome.gif)
+
 
 ## Clues
 

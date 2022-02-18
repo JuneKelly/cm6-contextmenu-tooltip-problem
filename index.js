@@ -59,7 +59,18 @@ const initialState = EditorState.create({
         console.log(">>>>>>>>>> contextmenu event <<<<<<<<<<<<<<")
         event.preventDefault()
         dispatchShowCounterEffect(view)
-      }
+      },
+      /*
+       * Un-comment this block to fix the issue in chrome,
+       * at the expense of doubling the work done.
+       */
+      // mouseup: (event, view) => {
+      //   if (event.button === 2) {
+      //     console.log(">>>>>>>>>> mouseup right-click event <<<<<<<<<<<<<<")
+      //     event.preventDefault()
+      //     dispatchShowCounterEffect(view)
+      //   }
+      // },
     }),
     messageTooltipField
   ],
