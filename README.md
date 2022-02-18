@@ -26,12 +26,12 @@ and the way CM6 handles tooltips.
 In Firefox (consistent behaviour):
 
 
-![](./images/cm-firefox.gif)
+![](./images/cm6-firefox.gif)
 
 In Chrome (inconsistent behaviour):
 
 
-![](./images/cm-chrome.gif)
+![](./images/cm6-chrome.gif)
 
 ## Clues
 
