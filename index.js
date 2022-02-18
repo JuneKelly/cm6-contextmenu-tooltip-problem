@@ -41,7 +41,7 @@ const messageTooltipField = StateField.define({
 
 let counter = 0
 
-const dispatchShowCounter = (view) => {
+const dispatchShowCounterEffect = (view) => {
   counter++
   view.dispatch({
     effects: [
@@ -57,7 +57,7 @@ const initialState = EditorState.create({
       contextmenu: (event, view) => {
         console.log(">>>>>>>>>> contextmenu event <<<<<<<<<<<<<<")
         event.preventDefault()
-        dispatchShowCounter(view)
+        dispatchShowCounterEffect(view)
       }
     }),
     messageTooltipField
