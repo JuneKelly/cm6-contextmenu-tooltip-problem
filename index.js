@@ -8,6 +8,7 @@ const showMessage = StateEffect.define()
 
 const createMessageElement = (message) => {
   const dom = document.createElement('div')
+  dom.style = "background-color: red; color: white; font-size: 24px"
   dom.textContent = message
   return { dom }
 }
