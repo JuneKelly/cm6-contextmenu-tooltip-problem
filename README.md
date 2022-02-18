@@ -36,7 +36,7 @@ In Chrome (inconsistent behaviour):
 ## Clues
 
 We have several log messages to help us debug this issue.
-On interesting pattern we see in chrome is that when the contextmenu event fires,
+One interesting pattern we see in chrome is that when the contextmenu event fires,
 the `compute()` function seems to get called *twice* in rapid succession. In 
 the first call, we see the tooltip object as we expect, but in the second call,
 we see a `null`. This may account for how the tooltip is not shown.
