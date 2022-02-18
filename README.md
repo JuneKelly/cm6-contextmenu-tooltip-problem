@@ -13,6 +13,8 @@
 In firefox, this works correctly. The message tooltip is shown on right-click, and 
 dismissed when we click elsewhere in the editor.
 
+![](images/counter.png)
+
 In chrome, this does not work consistently. Very often, the first click does not show 
 the tooltip, and we need to right-click a second time to make it appear.
 
